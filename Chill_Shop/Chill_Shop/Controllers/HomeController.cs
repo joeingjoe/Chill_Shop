@@ -26,5 +26,12 @@ namespace Chill_Shop.Controllers
 
             return View();
         }
+
+        public ActionResult Attack()
+        {
+            ViewBag.Message = "Move your dream";
+
+            return View();
+        }
     }
 }
